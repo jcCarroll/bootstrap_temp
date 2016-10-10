@@ -4,9 +4,9 @@ get '/' do
     erb :index
 end
 
-get '/404' do
-    erb :404
-end
+# get '/404' do
+#     erb :404
+# end
 
 get '/about' do
     erb :about
@@ -52,22 +52,14 @@ get '/portfolio_4_col' do
     erb :portfolio_4_col
 end
 
-get '/about' do
-    erb :about
+get '/pricing' do
+    erb :pricing
 end
 
-get '/about' do
-    erb :about
+get '/services' do
+    erb :services
 end
 
-get '/about' do
-    erb :about
-end
-
-get '/about' do
-    erb :about
-end
-
-get '/about' do
-    erb :about
+get '/sidebar' do
+    erb :sidebar
 end
